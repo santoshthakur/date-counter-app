@@ -21,6 +21,7 @@ const Counter=()=>{
     //console.log(d.getDay + d.getDate)
     return(
         <>
+        <h1>Timer Section</h1>
         <div className="box-wrap">
             <button className="btn" onClick={handlerStepDecrement}>Decrement</button>
             Step:<strong>{step}</strong> 
